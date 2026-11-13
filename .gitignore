@@ -1,0 +1,65 @@
+# Build and generated report directories at any depth.
+build/
+reports/
+
+# Local flash recovery backups.
+backups/
+
+# Vivado working directories and generated project products.
+.Xil/
+.srcs/
+.cache/
+.gen/
+.ipcache/
+*.cache/
+*.gen/
+*.runs/
+*.sim/
+*.hw/
+*.ip_user_files/
+ip_user_files/
+
+# FPGA implementation outputs (keep .bin test inputs outside ignored directories).
+*.bit
+*.dcp
+*.mcs
+*.prm
+*.ltx
+*.xsa
+*.rpt
+*.rpx
+clockInfo.txt
+tight_setup_hold_pins.txt
+
+# Tool logs, journals, and simulation outputs.
+*.log
+*.jou
+*.str
+*.pb
+*.wdb
+*.vcd
+*.fst
+*.vvp
+xsim.dir/
+obj_dir/
+
+# Native compiler and Linux kernel module build artifacts.
+*.o
+*.a
+*.so
+*.so.*
+*.ko
+*.mod
+*.mod.c
+.*.cmd
+.*.d
+Module.symvers
+modules.order
+.tmp_versions/
+
+# Python bytecode caches.
+__pycache__/
+*.py[cod]
+
+# Downloaded upstream driver checkout, including its built tools.
+/vendor/dma_ip_drivers/
